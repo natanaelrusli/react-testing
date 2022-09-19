@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Test using react testing library
+
+- A test usually written in a test block
+- Inside the test block, the first thing we do is to render the component that we want to test
+- Select the element that we want to interact with
+- Interact with those elements using `fireEvents` method from the testing library
+- `assert` that the results are as expected
+- The test block can be written using either `test` or `it` eiter of those will take two parameters
+-- Name of the test
+-- a `callback function` which describe the actual function that we will test
