@@ -79,3 +79,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - The test block can be written using either `test` or `it` eiter of those will take two parameters
 -- Name of the test
 -- a `callback function` which describe the actual function that we will test
+
+[Notion Link for Testing React with JEST](https://www.notion.so/Testing-React-with-JEST-85646e31e5974786848c87404cbc2a6b)
